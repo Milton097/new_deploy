@@ -167,3 +167,9 @@
 .innercontainer img + div p:first-child {
   color: lightcoral;
 }
+
+@media only screen and (min: 300px) and (max: 750px) {
+  .container {
+    width: auto;
+  }
+}
